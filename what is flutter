@@ -1,4 +1,4 @@
-What is flutter. 
+--> What is flutter. 
 
 Flutter is a free and open-source framework created by Google that lets you build apps for multiple platforms (like Android, iOS, web, and desktop) using a single codebase. 
 It uses the programming language Dart and provides a rich set of pre-designed widgets to help developers easily create beautiful and responsive user interfaces.
@@ -28,7 +28,7 @@ Flutter comes with a lot of built-in tools to create visually appealing apps. Yo
 Flutter apps perform very well because it compiles directly to native code, meaning it runs as fast as apps built specifically for each platform.
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Explain in Hinglish ---
+--> Explain in Hinglish ---
 Flutter ek open-source framework hai jo Google ne banaya hai, aur iske through aap ek hi codebase ka use karke multiple platforms ke liye apps bana sakte ho, 
 jaise Android, iOS, web, aur desktop. Isme Dart programming language ka use hota hai, jo ki ek fast aur efficient language hai. Flutter ke saath aapko bohot 
 saare pre-designed widgets milte hain, jinki madad se aap easily beautiful aur responsive user interfaces bana sakte ho.
@@ -36,11 +36,11 @@ saare pre-designed widgets milte hain, jinki madad se aap easily beautiful aur r
 Flutter ka sabse bada advantage ye hai ki aapko har platform ke liye alag code likhne ki zaroorat nahi hai. Aap ek baar code likhte ho aur wahi 
 app alag-alag platforms pe chal sakti hai. Isse development time aur effort dono bachat hai.
 
-Flutter ke kuch key features:
+--> Flutter ke kuch key features:
 
-Hot Reload: Aap jab bhi code mein changes karte ho, to aapko apne app ko baar-baar restart karne ki zaroorat nahi hoti.
+** Hot Reload: Aap jab bhi code mein changes karte ho, to aapko apne app ko baar-baar restart karne ki zaroorat nahi hoti.
 Changes instantly dikhte hain, jo development speed ko fast bana deta hai.
 
-Widgets: Flutter mein sab kuch widgets ke through build hota hai. Ye widgets highly customizable hote hain, jisse aap apne app ko apne hisaab se design kar sakte ho.
+** Widgets: Flutter mein sab kuch widgets ke through build hota hai. Ye widgets highly customizable hote hain, jisse aap apne app ko apne hisaab se design kar sakte ho.
 Cross-platform: Ek code likhne ke baad aap usi code se iOS, Android, web, aur desktop apps build kar sakte ho.
 

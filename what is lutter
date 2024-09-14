@@ -1,0 +1,46 @@
+What is flutter. 
+
+Flutter is a free and open-source framework created by Google that lets you build apps for multiple platforms (like Android, iOS, web, and desktop) using a single codebase. 
+It uses the programming language Dart and provides a rich set of pre-designed widgets to help developers easily create beautiful and responsive user interfaces.
+
+1. Single Codebase for Multiple Platforms
+You write one set of code, and it works for different platforms. You don’t need to write separate code for Android, iOS, etc.
+
+2. Dart Programming Language
+Flutter uses Dart, a programming language that’s fast and easy to learn, similar to JavaScript or Java.
+
+3. Widgets
+Flutter uses a concept called widgets. Everything you see in a Flutter app (like buttons, text, images) is a widget. Widgets help you design and structure the app.
+
+4. Hot Reload
+With hot reload, you can see changes in your app instantly when you edit your code. You don’t need to restart the whole app to see updates, which saves a lot of time.
+
+5. Cross-Platform Development
+You can create apps that work on Android, iOS, web, and desktop without needing to write separate code for each.
+
+6. Open Source and Free
+Flutter is completely free and open source, which means anyone can use it, contribute to it, or modify it.
+
+7. Beautiful User Interfaces
+Flutter comes with a lot of built-in tools to create visually appealing apps. You can easily customize how your app looks using its rich set of widgets.
+
+8. Fast Performance
+Flutter apps perform very well because it compiles directly to native code, meaning it runs as fast as apps built specifically for each platform.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Explain in Hinglish ---
+Flutter ek open-source framework hai jo Google ne banaya hai, aur iske through aap ek hi codebase ka use karke multiple platforms ke liye apps bana sakte ho, 
+jaise Android, iOS, web, aur desktop. Isme Dart programming language ka use hota hai, jo ki ek fast aur efficient language hai. Flutter ke saath aapko bohot 
+saare pre-designed widgets milte hain, jinki madad se aap easily beautiful aur responsive user interfaces bana sakte ho.
+
+Flutter ka sabse bada advantage ye hai ki aapko har platform ke liye alag code likhne ki zaroorat nahi hai. Aap ek baar code likhte ho aur wahi 
+app alag-alag platforms pe chal sakti hai. Isse development time aur effort dono bachat hai.
+
+Flutter ke kuch key features:
+
+Hot Reload: Aap jab bhi code mein changes karte ho, to aapko apne app ko baar-baar restart karne ki zaroorat nahi hoti.
+Changes instantly dikhte hain, jo development speed ko fast bana deta hai.
+
+Widgets: Flutter mein sab kuch widgets ke through build hota hai. Ye widgets highly customizable hote hain, jisse aap apne app ko apne hisaab se design kar sakte ho.
+Cross-platform: Ek code likhne ke baad aap usi code se iOS, Android, web, aur desktop apps build kar sakte ho.
+

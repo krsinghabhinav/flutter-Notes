@@ -1,0 +1,48 @@
+// Carousel Slider
+CarouselSlider(
+  options: CarouselOptions(
+    height: 160.0,
+    autoPlay: true,
+    enlargeCenterPage: true,
+    autoPlayInterval: const Duration(seconds: 3),
+    autoPlayAnimationDuration: const Duration(milliseconds: 800),
+    autoPlayCurve: Curves.fastOutSlowIn,
+    scrollDirection: Axis.horizontal,
+  ),
+  items: sliderImages
+      .map((item) => Padding(
+            padding: const EdgeInsets.all(6),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(15),
+              child: Stack(
+                fit: StackFit.expand,
+                children: [
+                  Image.network(
+                    item,
+                    fit: BoxFit.cover,
+                    width: double.infinity,
+                    errorBuilder: (context, error, stackTrace) {
+                      return Image.asset(
+                          'assets/images/fallback_slider.png',
+                          fit: BoxFit.cover);
+                    },
+                  ),
+                  // Gradient Overlay
+                  Container(
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(
+                        colors: [
+                          Colors.black.withOpacity(0.5),
+                          Colors.transparent,
+                        ],
+                        begin: Alignment.bottomCenter,
+                        end: Alignment.topCenter,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ))
+      .toList(),
+)

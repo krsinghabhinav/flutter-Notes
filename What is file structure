@@ -1,0 +1,95 @@
+--> What is file structure. 
+
+The file structure in a Flutter project is organized in a way that helps you manage your code, assets, and other resources efficiently. Let me walk you through the typical Flutter project structure and explain the purpose of each folder and file:
+
+1. android/ Folder
+Purpose: Contains the Android-specific files required to build the app for Android devices.
+* Key Files/Folders:
+* build.gradle: Configuration file for building the Android version of the app.
+* src/: Contains the main Java or Kotlin code required for the Android version of the app.
+
+2. ios/ Folder
+Purpose: Contains the iOS-specific files required to build the app for iPhones and iPads.
+* Key Files/Folders:
+* Info.plist: Contains the configuration for the iOS app like app name, permissions, and icons.
+* Runner.xcworkspace & Runner.xcodeproj: These are used by Xcode to build the iOS app.
+
+3. lib/ Folder
+Purpose: This is the most important folder in Flutter projects. It contains your Dart code, which is the logic and structure of the app.
+* Key Files:
+* main.dart: The entry point of your Flutter app. This file contains the void main() function that runs the app. You'll also set up the initial layout here.
+* Other files in this folder: You can organize the rest of your code here. For example, you might have subfolders like:
+* screens/: To store different UI screens.
+* widgets/: For custom widgets.
+* models/: To store data models.
+* services/: For services like API calls or database interactions.
+
+4. test/ Folder
+Purpose: Contains test files for testing your Flutter app. Flutter supports unit tests, widget tests, and integration tests.
+Key Files:
+Files like widget_test.dart are used to write automated tests to check whether the app’s UI or logic is working as expected.
+
+5. build/ Folder
+Purpose: This is an auto-generated folder that contains the output files generated during the build process.
+Key Files: Contains the APK (for Android), IPA (for iOS), or other platform-specific files.
+
+6. pubspec.yaml
+Purpose: This is one of the most important files in a Flutter project. It contains metadata about your project (name, version, description) and manages dependencies (libraries/packages you use in your app).
+Key Parts:
+* dependencies:: Here, you can add third-party packages and plugins that you want to use.
+* assets:: If your app uses images, fonts, or other resources, you can list them here to make them available in your app.
+* flutter:: This section might also define the Flutter-specific settings and options.
+
+7. assets/ Folder
+Purpose: Contains static resources like images, icons, fonts, etc. that your app will use.
+Key Files: You might have folders like:
+* images/: For storing image files like .png, .jpg, etc.
+* fonts/: For custom font files if you’re using non-default fonts.
+
+8. web/ Folder
+Purpose: This folder is used when building a Flutter app for the web. 
+          It contains the configuration and files for the web version of your app.
+Key Files:
+* index.html: The main entry point for the web app.
+
+9. macos/, windows/, linux/ Folders (Optional)
+Purpose: These folders are used for desktop versions of your Flutter app. Each one contains platform-specific files and configurations.
+Key Files:
+Similar to android/ and ios/, these folders contain build files and platform-specific configurations.
+
+10. analysis_options.yaml
+* Purpose: This file is used to define custom rules and linting options for analyzing your code quality in Flutter.
+
+11. .gitignore
+Purpose: A configuration file that tells Git which files/folders should be ignored when pushing
+         code to a repository (e.g., build files, IDE-specific files).
+
+12. .metadata
+Purpose: This is an auto-generated file by Flutter to track the project version and environment configuration.
+          You typically don’t need to modify this.
+
+13. README.md
+Purpose: Contains information about the project. It's a markdown file usually used for documentation.
+         You can explain what the app does, how to set it up, and other details.
+******************************************************************************************************
+my_flutter_app/
+├── android/
+├── ios/
+├── lib/
+│   ├── main.dart
+│   ├── screens/
+│   ├── widgets/
+│   └── models/
+├── test/
+├── web/
+├── assets/
+│   ├── images/
+│   └── fonts/
+├── macos/
+├── windows/
+├── linux/
+├── build/
+├── pubspec.yaml
+├── README.md
+└── .gitignore
+
